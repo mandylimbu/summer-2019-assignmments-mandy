@@ -1,0 +1,84 @@
+/*main styles*/
+
+body{
+background-color: aqua;
+    background-image: url("../images/background.jpg");
+        background-size: cover;
+
+}
+
+header {
+    width: 700px;
+    border: 1px black dotted;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+    
+
+main{
+    width:300px;
+    border: 1px black dotted;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    }
+
+footer{
+    width:200px;
+    border: 1px black dotted;
+    margin: 0 auto;
+    background-color: white;
+    }
+/* text style start*/
+h1 {
+	    font-size: 100px;
+	    font-family: cursive;
+	    color: darkgray;
+	    text-align: center;
+	}
+	
+p{
+    font-size: 36px;
+    font-family: "Arial", sans-serif;
+    color: darkblue;
+    }
+p, li, a {
+	    font-size: 36px;
+	    font-family: "Arial", sans-serif;
+	    color: darkblue;
+	}
+	
+
+a{
+    font-size: 36px;
+    font-family: "Arial", sans-serif;
+}
+/*text style end*/
+/* image style start*/
+#intro-image {
+    width: 500px;
+    margin: 0 auto;
+}
+/* anchor pseudo class*/
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color:fuchsia;
+}
+a:hover {
+    color: red;
+}
+
+a: active{
+    color: yellow;
+}
+li {
+    font-size: 36px;
+    font-family: "Arial", sans-serif;
+    color: darkblue;
+}
+
+
