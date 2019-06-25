@@ -9,20 +9,35 @@
     <!--CSS internal STYLESHEET-->
 
     <style>
-        body {
-            background-color: #ecf0f1;
+        body{
+        text-align: center;
         }
-        .special {
-        font-size: 24px;
+    
+        
+        #red, #green, #blue {
+        width: 200px;
+        height: 200px;
+        border: 3px black solid;
+        font-size: 200px;
+        margin:10px auto ;
+        display: inline-block;
+        
+        }
+        .text {
+            display: block;
+        }
+        ul {
+            list-style-type: circle;
+            border: 1px blue solid;
         }
         
-        
-        span.special {
-        text-decoration: line-through underline overline;
+        li {
+        display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
         }
-        #outer.inner {}
-
-       
+              
 
     </style>
 
@@ -31,24 +46,15 @@
 </head>
 
 <body>
-
-    <div id="container">
-        
-        <div id="outer">
-            <p class="inner">I am inside the outer div.</p>
-            <p id="special">I am special.</p>
-            
-        </div>
-        
-        <p>Hello <span class="special">there</span>, I am a p tag.</p>
-        <h1>How are you <span class="special">doing</span>, Iam an h1 tag.</h1>
+    <p><span class="text">item 1</span></p>
+    <p><span class="text">item 2</span></p>
+    <p><span class="text">item 3</span></p>
 
 
-
-
-
-    </div>
-
+    <div id="red">A</div>
+    <div id="green">B</div>
+    <div id="blue">C</div>
+    
     
 
 
