@@ -1,14 +1,14 @@
 /*main styles*/
 
 body{
-background-color: aqua;
+background-color: rgba #000000;
     background-image: url("../images/background.jpg");
         background-size: cover;
 
 }
 
 header {
-    width: 700px;
+    width: 800px;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,7 @@ header {
     
 
 main{
-    width:300px;
+    width:800px;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +25,7 @@ main{
     }
 
 footer{
-    width:200px;
+    width:800px;
     border: 1px black dotted;
     margin: 0 auto;
     background-color: white;
@@ -37,19 +37,35 @@ h1 {
 	    color: darkgray;
 	    text-align: center;
 	}
+
+li{
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+    border: solid #00ffeb 1px;
+    border-radius: 5px;
+}
+ul {
+list-style-type: none;
+}
+/*this is to add border on my list*/
+
 	
 p{
-    font-size: 36px;
-    font-family: "Arial", sans-serif;
+    font-size: 72px;
+    font-family: "Arial";
     color: darkblue;
     }
 p, li, a {
 	    font-size: 36px;
 	    font-family: "Arial", sans-serif;
 	    color: darkblue;
+    
 	}
 	
-
+#para {
+    background-color: red; 
+}
 a{
     font-size: 36px;
     font-family: "Arial", sans-serif;
@@ -57,13 +73,27 @@ a{
 /*text style end*/
 /* image style start*/
 #intro-image {
-    width: 500px;
-    margin: 0 auto;
+    text-align: center;
+}
+#intro-image {
+    opacity: .25;
+    border-radius: 50%;
+}
+#intro-image img{
+width: 500px;
+border-radius: 50px;
+}
+/*opacity 0 means completely invisible.used for making nice.*/
+#intro-image #square {
+    border-radius: 50%;
+    opacity: .25;
 }
 /* anchor pseudo class*/
 a:link {
     color: pink;
+    text-decoration: underline;
 }
+
 
 a:visited {
     color:fuchsia;

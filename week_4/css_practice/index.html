@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>CSS Practice</title>
+
+    <style>
+        body {
+            background-color: #ecf0f1;
+        }
+
+        main p {
+            color: darkgreen;
+        }
+
+        /*the above,select all divs within all divs within body.*/
+        /* Direcr child selector
+        select a main that is a direct child of div which should be a direct chid of body.*/
+        body>div>main p {
+            color: yellowgreen;
+        }
+
+        #bolded {
+            font-weight: bold;
+        }
+        #italicized {
+        font-style: italic
+        }
+
+        .fruit {
+            text-decoration: underline;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div id="container">
+        <header>
+            <h1>Header</h1>
+            <P>This is the <span id="bolded">header</span> section.</P>
+        </header>
+    </div>
+
+    <main>
+        <h1>Main</h1>
+        <p>This is the mainsection.</p>
+        <ol>
+            <li class="fruit">Apples</li>
+            <li>Oranges</li>
+            <li class="fruit">Grapes</li>
+            <li>Tea</li>
+            <li class="fruit">Coffee</li>
+            <li>Water</li>
+
+
+
+        </ol>
+
+    </main>
+
+
+    <div id="another container">
+        <main>
+            <h1>Main</h1>
+            <p id="bolded">This is the something else.</p>
+        </main>
+    </div>
+
+    <footer>
+        <h1>Footer</h1>
+        <p>This is the <span id="italicized">footer</span> section.</p>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
