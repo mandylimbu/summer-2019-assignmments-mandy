@@ -9,39 +9,60 @@
     <!--CSS internal STYLESHEET-->
 
     <style>
-        body{
-        text-align: center;
+        body {
+        background-image: url(images/green.jpg);
+            background-size: cover;
+            border: solid red 1px;
         }
-    
         
-        #red, #green, #blue {
-        width: 200px;
-        height: 200px;
-        border: 3px black solid;
-        font-size: 200px;
-        margin:10px auto ;
-        display: inline-block;
+        #playground {
+            width:1200px;
+            height: 1200px;
+            position:relative;
+            border: solid black 5px;
+            background-color: beige;
+            margin: 0 auto;
+            position: absolute;
+            
+        }
+        #green {
+            border: 5px solid green;
+            border-radius: 1px;
+            background-color: lightgreen;
+            width: 400px;
+            height:400px;
+            position: fixed;
+            top: 200px;
+            left: 200px;
+            box-sizing: border-box;
+            z-index: 1001;
+        }
+        
+        #blue {
+        border: 5px solid blue;
+            border-radius: 10px;
+            background-color: lightblue;
+            width: 200px;
+            height: 200px;
+            position: sticky;
+            top: 400px;
+            right: 200px;
+            top: 190px;
+            box-sizing: border-box;
+            z-index: 1000;
         }
         #red {
-        font-weight: 700;
-            font-style: italic;
-        
+            border: 5px solid red;
+            border-radius: 10px;
+            background-color: pink;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 400px;
+            right: 19%;
+            box-sizing: border-box;
+            z-index: 1002;
         }
-        .text {
-            display: block;
-        }
-        ul {
-            list-style-type: circle;
-            border: 1px blue solid;
-        }
-        
-        li {
-        display: inline-block;
-            width: 100px;
-            height: 100px;
-            background-color: red;
-        }
-              
 
     </style>
 
@@ -50,27 +71,15 @@
 </head>
 
 <body>
-    <p><span class="text">item 1</span></p>
-    <p><span class="text">item 2</span></p>
-    <p><span class="text">item 3</span></p>
-
-
-    <div id="red">A</div>
-    <div id="green">B</div>
-    <div id="blue">C</div>
+    <div id="playground">
+    <div id="green"></div>
+        <div id="blue"></div>
+        <div id="red"></div>
+        
+        
+    </div>
+            
     
-    <ul>
-        <li>Home</li>
-        <li>Home</li>
-    <li>Home</li>
-    <li>Home</li>
-    </ul>
-    
-    
-
-
-
-
 </body>
 
 </html>

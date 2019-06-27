@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>CSS Practice</title>
+    <!--CSS internal STYLESHEET-->
+
+    <style>
+        body {
+        background-image: url(images/momo1.jpg);
+            background-size: cover;
+            border: solid red 1px;
+        }  
+        #playground {
+            width: 600px;
+            height: 600px;
+            background-color: aliceblue;
+            border: solid red 1px;
+            position: relative;
+            margin: 0px auto;
+        }
+        
+        #green {
+        width: 200px;
+            height: 200px;
+            border-radius: 1px;
+            background-color: lightgreen;
+            border: solid darkgreen 1px;
+            position: relative;
+            top: 400px;
+            left:100px;
+            box-sizing: border-box;
+            z-index:12;
+        }
+        #blue {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            border: solid darkblue 1px;
+            position: relative;
+            left: 200px;
+            z-index: 4;
+            
+        }
+        #red {
+        width: 200px;
+            height: 200px;
+            background-color: lightpink;
+            border: solid red 1px;
+            position: relative;
+            left:302px;
+            bottom: 5px;
+            z-index: 2;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div id="playground">
+    <div id="green"></div>
+    <div id="blue"></div>
+    <div id="red"></div>
+        
+        
+    </div>
+            
+    
+</body>
+
+</html>
