@@ -21,6 +21,7 @@
             border: solid red 1px;
             position: relative;
             margin: 0px auto;
+            z-index: 1000;
         }
         
         #green {
@@ -32,17 +33,17 @@
             position: relative;
             top: 400px;
             left:100px;
-            box-sizing: border-box;
-            z-index:12;
+            z-index:-1000;
         }
         #blue {
+            top:400px;
             width: 200px;
             height: 200px;
             background-color: lightblue;
             border: solid darkblue 1px;
-            position: relative;
+            position: absolute;
             left: 200px;
-            z-index: 4;
+            z-index: -999;
             
         }
         #red {
@@ -50,10 +51,10 @@
             height: 200px;
             background-color: lightpink;
             border: solid red 1px;
-            position: relative;
-            left:302px;
+            position: absolute;
+            left:250px;
             bottom: 5px;
-            z-index: 2;
+            z-index: -998;
         }
 
     </style>
