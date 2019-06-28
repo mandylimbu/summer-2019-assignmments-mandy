@@ -9,8 +9,23 @@
     <!--CSS internal STYLESHEET-->
 
     <style>
-       
+        #textstuff{
+            width: 200px;
+            height: 50px;
+            border-radius: 25px;
+            border: 1px solid grey;
+            padding: 10px;
+            font-size: 24px;
+            background-color: azure;
+            color: aqua;
+            text-shadow: 2px 10px #DDDDDD
+        }
         
+        #textstuff::placeholder {
+        color:red;
+        font-size: 12px;
+        }
+        /*placeholder is pseudo elements(::) so we can change it in this manner*/
             
     </style>
 
@@ -22,7 +37,7 @@
     <form>
         
         <label for="textstuff">Password:</label>
-        <input id="textstuff" type="text" place holder="your phone number":/>
+        <input id="textstuff" type="text" placeholder="your phone number"/>
     <input type="text"/>
         <label for="single">Single:</label>
         <input id="single" type="radio" value="single" name="marital"/> 
