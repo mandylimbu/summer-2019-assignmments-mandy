@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Forms Practice</title>
+    <!--CSS internal STYLESHEET-->
+
+    <style>
+       
+        
+            
+    </style>
+
+
+</head>
+
+    <!--HTML CONTENT-->
+<body>
+    <h1>This is a Heaader 1 element</h1>
+    <p>This is a paragraph element</p>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    <li>List Item</li>
+    
+    
+    <table>
+        <td>Table item 1</td>
+        <td>Table item 2</td>
+        <td>Table item 3</td>
+    </tr>
+        <tr>
+        <tr>Table item 4</tr>
+        <textarea></textarea>
+        <input type="text">
+        </tr>
+    
+    </table>
+    
+        
+        
+    
+    
+</body>
+
+</html>
